@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&family=Ubuntu:wght@500&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,3 +12,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Start of Card.js row styling */
+.row{
+  margin-top: 20px;
+  padding-top: 20px;
+}
+/*end of row styling*/
+
+/*start of  Card.js ul style*/
+.lists {
+  list-style-type: none;
+  margin-left:-40px;
+}
+/*start of  Card.js para styling*/
+.card-text{
+  margin-top:10px;
+  font-family: 'Kanit', sans-serif;
+}
+/*start of text.js li style*/
+.list li{
+  margin-top:10px;
+  list-style-type: disc;
+  font-family: 'Kanit', sans-serif;
+  
+}
+/*styling of order-box border*/
+.border-3{
+  border-width:3px !important;
+}
+/*start of button styling*/
+.shopping{
+  
+  background:#030200;
+  width:240px !important;
+  padding: 10px;
+}
+ /*Responsive */
+ @media only screen and (max-width: 995px){
+.row{
+  margin-top: 5px;
+  padding-top:5px;
+
+}
+ }
